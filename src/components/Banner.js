@@ -1,17 +1,22 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import nada from "../assets/img/nada1.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { LanguageContext } from "../LanguageContext"; // Ajuste le chemin selon ton dossier
+import translations from "./translations.json";
 
 export const Banner = () => {
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
+
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Backend Developer", "Data Analyst", "Content creator"];
+  const toRotate = t.rotatingTitles; 
   const period = 2000;
 
   useEffect(() => {
@@ -19,8 +24,8 @@ export const Banner = () => {
       tick();
     }, delta);
 
-    return () => { clearInterval(ticker) };
-  }, [text])
+    return () => { clearInterval(ticker); }
+  }, [text]);
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -55,11 +60,13 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi! I'm Nada EL KAMEL`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Backend Developer", "Data Analyst", "Content creator" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Junior Data Analyst & Master's research student with a backend development background. Passionate about data, tech, and creating content around digital marketing and Instagram. I bridge logic and creativity to build data-driven and engaging digital experiences.</p>
+                  <span className="tagline">{t.welcome}</span>
+                  <h1>{t.hi} <span className="txt-rotate" dataPeriod="1000" data-rotate={JSON.stringify(toRotate)}>
+                    <span className="wrap">{text}</span>
+                  </span></h1>
+                  <p>{t.description}</p>
                   <button onClick={() => window.open(process.env.PUBLIC_URL + "/cv.html", "_blank")}>
-                    View my resume <ArrowRightCircle size={25} />
+                    {t.viewResume} <ArrowRightCircle size={25} />
                   </button>
                 </div>}
             </TrackVisibility>

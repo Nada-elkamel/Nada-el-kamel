@@ -10,12 +10,14 @@ import { Footer } from "./components/Footer";
 import { Languages } from "./components/Languages";
 import { Education } from "./components/Education";
 import { Recommendations } from "./components/Recommendations";
+import { LanguageProvider } from "./LanguageContext";
 
 function App() {
   return (
     <div className="App">
+      <LanguageProvider>
       <NavBar />
-      <Banner />
+      <Banner  />
       <Education />
       <HardSkills />
       <SoftSkills />
@@ -24,6 +26,7 @@ function App() {
       <Recommendations />
       <Contact />
       <Footer />
+      </LanguageProvider>
     </div>
   );
 }

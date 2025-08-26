@@ -1,0 +1,198 @@
+{
+  "Fr": {
+    "home": "Accueil",
+    "skills": "Compétences techniques",
+    "softskills": "Compétences douces",
+    "languages": "Langues",
+    "projects": "Projets",
+    "recommendations": "Recommandations",
+    "letsConnect": "Restons en contact",
+    "welcome": "Bienvenue sur mon Portfolio",
+    "hi": "Salut ! Je suis Nada EL KAMEL",
+    "description": "Junior Data Analyst et étudiante en recherche de Master avec un background en développement backend. Passionnée par les données, la technologie et la création de contenu autour du marketing digital et d'Instagram. Je combine logique et créativité pour construire des expériences digitales engageantes et basées sur les données.",
+    "viewResume": "Voir mon CV",
+    "rotatingTitles": ["Développeuse Backend", "Analyste de données", "Créatrice de contenu"],
+    "education": "Éducation",
+    "educationDescription": "Voici une chronologie de mon parcours académique.",
+    "educationData": [
+      {
+        "year": "2024 - 2026",
+        "degree": "Master de recherche en Systèmes intelligents - Systèmes intelligents avancés",
+        "school": "École Nationale des Sciences Informatiques de Mannouba",
+        "description": "Spécialisée en analyse de données, apprentissage automatique et apprentissage profond."
+      },
+      {
+        "year": "2021 - 2024",
+        "degree": "Licence en Informatique - Développement des systèmes d'information",
+        "school": "Institut Supérieur des Études Technologiques de Nabeul",
+        "description": "Étude de la programmation, des bases de données et des principes d'ingénierie logicielle."
+      },
+      {
+        "year": "2021",
+        "degree": "Baccalauréat National",
+        "school": "Lycée Secondaire de Grombalia",
+        "description": "Spécialisation scientifique."
+      }
+    ],
+    "projectsSection": {
+      "title": "Projets",
+      "description": "Dans cette section, vous trouverez une variété de projets organisés par catégorie — chaque onglet présente un type de travail différent, allant de l'analyse de données au développement backend et à la création de contenus digitaux.",
+      "tabs": {
+        "data": "Science/Analyse des données",
+        "dev": "Développement",
+        "content": "Création de contenu",
+        "design": "Conception graphique"
+      },
+      "dataScienceProjects": [
+        { "title": "Analyse de salle de sport", "description": "Power BI" },
+        { "title": "Analyse des produits Apple", "description": "Power BI" },
+        { "title": "Analyse RH IBM_HR", "description": "Pandas, Power BI" },
+        { "title": "Prédiction du diabète", "description": "Flask, Arbre de décision" }
+      ],
+      "devProjects": [
+        { "title": "Prédiction du diabète", "description": "Développement Full Stack (Flask)" },
+        { "title": "Système de gestion de conférences", "description": "Développement Full Stack (Django)" }
+      ],
+      "contentcreationProjects": [
+        { "title": "Bigou Brigitte", "description": "Adobe Premiere Pro" },
+        { "title": "Clarenia ClareSUN", "description": "CapCut" },
+        { "title": "Clarenia SkinCare Pouch", "description": "Adobe Premiere Pro" },
+        { "title": "JCI Grombalia EDISON-APCT", "description": "Adobe Premiere Pro" }
+      ],
+      "graphicDesignProjects": [
+        { "title": "Affiche Cintella", "description": "Canva" },
+        { "title": "Affiche Drift", "description": "Canva" },
+        { "title": "Affiche agence de voyages", "description": "Canva" },
+        { "title": "Affiche Podcast JCI", "description": "Canva" },
+        { "title": "Affiche fête nationale", "description": "Canva" }
+      ]
+    },
+    "contact": {
+      "emailLabel": "Email :",
+      "phoneLabel": "Téléphone :",
+      "addressLabel": "Adresse :",
+      "email": "nada.elkamel@ensi-uma.tn",
+      "phone": "+216 26 155 654",
+      "address": "Gombalia 8030, Nabeul, Tunisie"
+    },
+    "footerCopyright": "Copyright 2025. Tous droits réservés",
+    "hardSkillsSection": {
+  "title": "Compétences techniques",
+  "description": "Voici mes compétences techniques principales, alliant expertise et créativité.",
+  "skills": ["Django", "Java", "Power BI / Excel", "SQL / NoSQL"]
+},
+"softSkillsSection": {
+  "title": "Compétences douces",
+  "description": "Voici mes principales compétences douces.",
+  "skills": ["Travail d'équipe", "Esprit critique", "Adaptabilité", "Apprentissage continu", "Communication"]
+},
+"languagesSection": {
+  "title": "Langues",
+  "description": "Voici mes principales langues, alliant maîtrise et expérience.",
+  "languages": ["Arabe", "Français", "Anglais", "Allemand"]
+},
+"recommendationsSection": {
+  "title": "Recommandations LinkedIn",
+  "description": "Ce que disent mes collègues de collaboration avec moi"
+}
+
+  },
+  "En": {
+    "home": "Home",
+    "skills": "Hard skills",
+    "softskills": "Soft skills",
+    "languages": "Languages",
+    "projects": "Projects",
+    "recommendations": "Recommendations",
+    "letsConnect": "Let's Connect",
+    "welcome": "Welcome to my Portfolio",
+    "hi": "Hi! I'm Nada EL KAMEL",
+    "description": "Junior Data Analyst & Master's research student with a backend development background. Passionate about data, tech, and creating content around digital marketing and Instagram. I bridge logic and creativity to build data-driven and engaging digital experiences.",
+    "viewResume": "View my resume",
+    "rotatingTitles": ["Backend Developer", "Data Analyst", "Content creator"],
+    "education": "Education",
+    "educationDescription": "Here is a timeline of my academic journey.",
+    "educationData": [
+      {
+        "year": "2024 - 2026",
+        "degree": "Research Master's in Smart Systems - Advanced Intelligent Systems",
+        "school": "National School of Computer Science of Mannouba",
+        "description": "Focused on data analysis, machine learning, and deep learning."
+      },
+      {
+        "year": "2021 - 2024",
+        "degree": "Bachelor's in Computer Science - Development of Information Systems",
+        "school": "Higher Institute of Technological Studies of Nabeul",
+        "description": "Studied programming, databases, and software engineering principles."
+      },
+      {
+        "year": "2021",
+        "degree": "National Baccalaureate Diploma",
+        "school": "Grombalia Secondary School",
+        "description": "Science specialization."
+      }
+    ],
+    "projectsSection": {
+      "title": "Projects",
+      "description": "In this section, you’ll find a variety of projects organized by category — each tab showcases a different type of work, from data analysis to backend development and creative digital content.",
+      "tabs": {
+        "data": "Data Science/Analysis",
+        "dev": "Development",
+        "content": "Content creation",
+        "design": "Graphic design"
+      },
+      "dataScienceProjects": [
+        { "title": "Gym analysis", "description": "Power BI" },
+        { "title": "Apple product analysis", "description": "Power BI" },
+        { "title": "IBM_HR employee analysis", "description": "Pandas, Power BI" },
+        { "title": "Diabetes prediction", "description": "Flask, Decision Tree" }
+      ],
+      "devProjects": [
+        { "title": "Diabetes prediction", "description": "Full Stack development (Flask)" },
+        { "title": "Conference system management", "description": "Full Stack development (Django)" }
+      ],
+      "contentcreationProjects": [
+        { "title": "Bigou Brigitte", "description": "Adobe Premiere Pro" },
+        { "title": "Clarenia ClareSUN", "description": "CapCut" },
+        { "title": "Clarenia SkinCare Pouch", "description": "Adobe Premiere Pro" },
+        { "title": "JCI Grombalia EDISON-APCT", "description": "Adobe Premiere Pro" }
+      ],
+      "graphicDesignProjects": [
+        { "title": "Cintella poster", "description": "Canva" },
+        { "title": "Drift event poster", "description": "Canva" },
+        { "title": "Travel agency poster", "description": "Canva" },
+        { "title": "Podcast JCI poster", "description": "Canva" },
+        { "title": "Republic day poster", "description": "Canva" }
+      ]
+    },
+    "contact": {
+      "emailLabel": "Email:",
+      "phoneLabel": "Phone:",
+      "addressLabel": "Address:",
+      "email": "nada.elkamel@ensi-uma.tn",
+      "phone": "+216 26 155 654",
+      "address": "Gombalia 8030, Nabeul, Tunisia"
+    },
+    "footerCopyright": "Copyright 2025. All Rights Reserved",
+    "hardSkillsSection": {
+  "title": "Hard Skills",
+  "description": "Here are my core hard skills, combining technical expertise and creative flair.",
+  "skills": ["Django", "Java", "Power BI / Excel", "SQL / NoSQL"]
+},
+"softSkillsSection": {
+  "title": "Soft Skills",
+  "description": "Here are my core soft skills.",
+  "skills": ["Teamwork", "Critical thinking", "Adaptability", "Continuous learning", "Communication"]
+},
+"languagesSection": {
+  "title": "Languages",
+  "description": "Here are my core languages, combining fluency and experience.",
+  "languages": ["Arabic", "French", "English", "German"]
+},
+"recommendationsSection": {
+  "title": "LinkedIn Recommendations",
+  "description": "What colleagues say about working with me"
+}
+
+  }
+}

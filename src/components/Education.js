@@ -1,34 +1,19 @@
-import React from "react";
-import "./Education.css"; // We'll create this CSS file
+import React, { useContext } from "react";
+import "./Education.css";
+import translations from "./translations.json";
+import { LanguageContext } from "../LanguageContext";
 
 export const Education = () => {
-  const educationData = [
-    {
-      year: "2024 - 2026",
-      degree: "Research master's in Smart systems- Advanced intelligent systems",
-      school: "National School of Computer Science of Mannouba ",
-      description: "Focused on data analysis, machine learning, and deep learning   ."
-    },
-    {
-      year: "2021 - 2024",
-      degree: "Bachelor's in Computer Science - Development of information systems",
-      school: "Higher Institute of technological studies of Nabeul",
-      description: "Studied programming, databases, and software engineering principles."
-    },
-    {
-      year: "2021",
-      degree: "National Baccalaureate Diploma",
-      school: "Grombalia Secondary School",
-      description: "Science specialization."
-    }
-  ];
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
+  const educationData = t.educationData;
 
   return (
     <section className="education" id="education">
       <div className="container">
         <div className="section-header">
-          <h2>Education</h2>
-          <p>Here is a timeline of my academic journey.</p>
+          <h2>{t.education}</h2>
+          <p>{t.educationDescription}</p>
         </div>
         <div className="timeline">
           {educationData.map((edu, index) => (

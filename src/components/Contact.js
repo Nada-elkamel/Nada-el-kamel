@@ -1,8 +1,14 @@
+import { useContext } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { LanguageContext } from "../LanguageContext";
+import translations from "./translations.json";
 
 export const Contact = () => {
+  const { language } = useContext(LanguageContext);
+  const t = translations[language];
+
   return (
     <section className="contact" id="connect">
       <Container>
@@ -11,10 +17,10 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2>Get In Touch</h2>
-                  <p><strong>Email:</strong> nada.elkamel@ensi-uma.tn</p>
-                  <p><strong>Phone:</strong> +216 26 155 654</p>
-                  <p><strong>Address:</strong> Gombalia 8030, Nabeul, Tunisia</p>
+                  <h2>{t.letsConnect}</h2>
+                  <p><strong>{t.contact.emailLabel}</strong> {t.contact.email}</p>
+                  <p><strong>{t.contact.phoneLabel}</strong> {t.contact.phone}</p>
+                  <p><strong>{t.contact.addressLabel}</strong> {t.contact.address}</p>
                 </div>
               }
             </TrackVisibility>
