@@ -1,0 +1,86 @@
+.education {
+  padding: 50px 0;
+  color: #333;   
+}
+
+.section-header h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.section-header p {
+  color: #555;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding-left: 30px;
+  max-width: 700px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(180deg, #AA367C, #4A2FBD);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 7px;
+  width: 16px;
+  height: 16px;
+  background: #AA367C;
+  border-radius: 50%;
+  top: 0;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 3px #AA367C;
+}
+
+.timeline-content {
+  margin-left: 40px;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.timeline-year {
+  font-weight: 700;
+  font-size: 16px;
+  color: #AA367C;
+}
+
+.timeline-content h3 {
+  font-size: 24px;
+  margin: 5px 0;
+  color: #222;
+}
+
+.timeline-content h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #4A2FBD;
+}
+
+.timeline-content p {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #555;
+  line-height: 1.5;
+}
