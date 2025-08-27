@@ -330,7 +330,55 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     max-width: 300px;
     margin-top: 40px;
   }
-  
+  /* Styles pour les liens GitHub - PLACÉS AU BON ENDROIT (hors des médias queries) */
+.proj-txtx .github-link {
+  margin-top: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.proj-imgbx:hover .proj-txtx .github-link {
+  opacity: 1;
+}
+
+.proj-txtx .github-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 8px;
+}
+
+.proj-txtx .github-btn:hover {
+  background-color: #4A2FBD;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.proj-txtx .github-btn::before {
+  content: "🔗";
+  font-size: 16px;
+}
+
+.background-image-right {
+  top: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 35%;
+  right: 0;
+  z-index: -4;
+}
   .banner button {
     margin: 30px auto 0 auto;
     justify-content: center;

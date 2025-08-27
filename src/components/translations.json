@@ -2,7 +2,7 @@
   "Fr": {
     "home": "Accueil",
     "skills": "Compétences techniques",
-    "softskills": "Compétences douces",
+    "softskills": "Savoir-être",
     "languages": "Langues",
     "projects": "Projets",
     "recommendations": "Recommandations",
@@ -44,14 +44,14 @@
         "design": "Conception graphique"
       },
       "dataScienceProjects": [
-        { "title": "Analyse de salle de sport", "description": "Power BI" },
-        { "title": "Analyse des produits Apple", "description": "Power BI" },
-        { "title": "Analyse RH IBM_HR", "description": "Pandas, Power BI" },
-        { "title": "Prédiction du diabète", "description": "Flask, Arbre de décision" }
+        { "title": "Analyse de salle de sport", "description": "Power BI", "githubUrl": "https://github.com/Nada-elkamel/Pr-diction_experience_gym_level.git"  },
+        { "title": "Analyse des produits Apple", "description": "Power BI","githubUrl": "https://github.com/Nada-elkamel/Iphone-sales-analysis.git" },
+        { "title": "Analyse RH IBM_HR", "description": "Pandas, Power BI","githubUrl": "https://github.com/Nada-elkamel/IBM-HR.git" },
+        { "title": "Prédiction du diabète", "description": "Flask, Arbre de décision" , "githubUrl": "https://github.com/Nada-elkamel/Diabetes_prediction.git"}
       ],
       "devProjects": [
-        { "title": "Prédiction du diabète", "description": "Développement Full Stack (Flask)" },
-        { "title": "Système de gestion de conférences", "description": "Développement Full Stack (Django)" }
+        { "title": "Prédiction du diabète", "description": "Développement Full Stack (Flask)" , "githubUrl": "https://github.com/Nada-elkamel/Diabetes_prediction.git"},
+        { "title": "Système de gestion de conférences", "description": "Développement Full Stack (Django)","githubUrl": "https://github.com/Nada-elkamel/eventsparkpaginatorvf.git" }
       ],
       "contentcreationProjects": [
         { "title": "Bigou Brigitte", "description": "Adobe Premiere Pro" },
@@ -82,8 +82,8 @@
   "skills": ["Django", "Java", "Power BI / Excel", "SQL / NoSQL"]
 },
 "softSkillsSection": {
-  "title": "Compétences douces",
-  "description": "Voici mes principales compétences douces.",
+  "title": "Savoir-être",
+  "description": "Voici mes principales compétences comportementales.",
   "skills": ["Travail d'équipe", "Esprit critique", "Adaptabilité", "Apprentissage continu", "Communication"]
 },
 "languagesSection": {
